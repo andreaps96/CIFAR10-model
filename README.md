@@ -93,16 +93,16 @@ Dopo l'addestramento, il modello è stato valutato sul test set completo di CIFA
 
 La precisione e il richiamo sono elevati e bilanciati su quasi tutte le classi.
 
-                precision    recall  f1-score   support
-
-Airplane        0.94         0.96    0.95       1000
-Automobile      0.96         0.97    0.97       1000
-Bird            0.95         0.91    0.93       1000
-Cat             0.88         0.88    0.88       1000
-Deer            0.94         0.95    0.94       1000
-Dog             0.91         0.90    0.90       1000
-Frog            0.96         0.97    0.97       1000
-Horse           0.96         0.96    0.96       1000
-Ship            0.96         0.97    0.96       1000
-Truck           0.96         0.95    0.95       1000
+| Classe | Precision | Recall | F1-Score | Supporto |
+| :--- | :---: | :---: | :---: | :---: |
+| Airplane | 0.94 | 0.96 | 0.95 | 1000 |
+| Automobile | 0.96 | 0.97 | 0.97 | 1000 |
+| Bird | 0.95 | 0.91 | 0.93 | 1000 |
+| Cat | 0.88 | 0.88 | 0.88 | 1000 |
+| Deer | 0.94 | 0.95 | 0.94 | 1000 |
+| Dog | 0.91 | 0.90 | 0.90 | 1000 |
+| Frog | 0.96 | 0.97 | 0.97 | 1000 |
+| Horse | 0.96 | 0.96 | 0.96 | 1000 |
+| Ship | 0.96 | 0.97 | 0.96 | 1000 |
+| Truck | 0.96 | 0.95 | 0.95 | 1000 |
 ---
