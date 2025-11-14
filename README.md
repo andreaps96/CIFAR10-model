@@ -105,8 +105,4 @@ La precisione e il richiamo sono elevati e bilanciati su quasi tutte le classi.
        7       0.96      0.96      0.96      1000
        8       0.96      0.97      0.96      1000
        9       0.96      0.95      0.95      1000
-
-accuracy                           0.94     10000
-macro avg      0.94      0.94      0.94     10000 
-weighted avg   0.94      0.94      0.94     10000
 ---
