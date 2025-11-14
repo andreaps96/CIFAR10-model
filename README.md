@@ -5,6 +5,7 @@ Questo repository contiene un'implementazione PyTorch per la classificazione di 
 L'obiettivo di questo script non è solo classificare, ma dimostrare una pipeline di training robusta che impiega tecniche avanzate per massimizzare l'accuratezza (raggiungendo il **94.21%** sul test set) quando si applica il transfer learning a immagini di piccole dimensioni (32x32).
 
 ---
+
 ## Architettura del Modello: Adattamento di ResNet34
 
 Il modello base è un **ResNet34** (`ResNet34_Weights.IMAGENET1K_V1`) pre-addestrato su ImageNet (immagini 224x224). Per evitare una perdita di informazioni spaziali dovuta alle dimensioni ridotte delle immagini CIFAR-10 (32x32), l'architettura è stata modificata:
@@ -91,7 +92,8 @@ Dopo l'addestramento, il modello è stato valutato sul test set completo di CIFA
 ### Report di Classificazione
 
 La precisione e il richiamo sono elevati e bilanciati su quasi tutte le classi.
-precision    recall  f1-score   support
+
+          precision    recall  f1-score   support
 
        0       0.94      0.96      0.95      1000
        1       0.96      0.97      0.97      1000
@@ -105,4 +107,6 @@ precision    recall  f1-score   support
        9       0.96      0.95      0.95      1000
 
 accuracy                           0.94     10000
+macro avg      0.94      0.94      0.94     10000 
+weighted avg   0.94      0.94      0.94     10000
 ---
